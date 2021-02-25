@@ -1,0 +1,10 @@
+<div class="container">
+    <div class="card" style="width: 18rem;">
+        <div class="card-header">
+            Citas Disponibles
+        </div>
+        <ul class="list-group list-group-flush">
+            <li *ngFor="let llista of llista" class="list-group-item"><strong>Fecha:</strong> {{ llista.fecha }}   <strong>Hora: </strong> {{ llista.hora }} <strong>Reservada:</strong> {{ llista.reservada }} <strong>Trabajador:</strong> {{ llista.trabajador }} <strong>Descripcción:</strong> {{ llista.descripcion }} <span id="boton"><button class="btn btn-outline-dark"> Valorar Cita </button></span></li>
+        </ul>
+    </div>
+</div>

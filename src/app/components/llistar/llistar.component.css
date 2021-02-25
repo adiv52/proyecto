@@ -1,0 +1,12 @@
+
+.container{
+    margin-top: 50px;
+    text-align: center;
+}
+.card{
+    width: 100%!important;
+}
+#boton{
+    margin-left: 20px;
+    text-align: right;
+}
