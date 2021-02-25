@@ -2,7 +2,7 @@ export interface Llista {
     id:string,
     fecha:string,
     hora:string,
-    reservada:boolean,
+    reservada:string,
     trabajador:string,
     descripcion:string
 }

@@ -12,21 +12,21 @@ export class LlistaService {
     "id": "1", 
     "fecha": "13/02/2021", 
     "hora": "17:00-18:00", 
-    "reservada": false ,
+    "reservada": "Si" ,
     "trabajador": "Antonio", 
     "descripcion": "Cita disponible para reparacion de equipos"},
 {
     "id": "2", 
     "fecha": "13/02/2021", 
     "hora": "18:00-19:00", 
-    "reservada": true ,
+    "reservada": "Si" ,
     "trabajador": "Juan", 
     "descripcion": "Cita disponible para instalacion de Software"},
 {
     "id": "3", 
     "fecha": "13/02/2021", 
     "hora": "16:00-17:00", 
-    "reservada": false ,
+    "reservada": "No" ,
     "trabajador": "Vicente", 
     "descripcion": "Cita disponible para desarrollo de paginas web"}]
   private llistaURL = '/assets/llista.json';

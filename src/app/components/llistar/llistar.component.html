@@ -4,7 +4,7 @@
             Citas Disponibles
         </div>
         <ul class="list-group list-group-flush">
-            <li *ngFor="let llista of llista" class="list-group-item"><strong>Fecha:</strong> {{ llista.fecha }}   <strong>Hora: </strong> {{ llista.hora }} <strong>Reservada:</strong> {{ llista.reservada }} <strong>Trabajador:</strong> {{ llista.trabajador }} <strong>Descripcción:</strong> {{ llista.descripcion }} <span id="boton"><button class="btn btn-outline-dark"> Valorar Cita </button></span></li>
+            <li *ngFor="let llista of llista" class="list-group-item"><strong>Fecha:</strong> {{ llista.fecha }}   <strong>Hora: </strong> {{ llista.hora }} <strong>Reservada:</strong> <span [ngStyle]="{'background-color':llista.reservada === 'No' ? 'green' : 'red' }">{{ llista.reservada }} </span><strong>Trabajador:</strong> {{ llista.trabajador }} <strong>Descripcción:</strong> {{ llista.descripcion }} <span id="boton"><button class="btn btn-outline-dark"> Valorar Cita </button></span></li>
         </ul>
     </div>
 </div>

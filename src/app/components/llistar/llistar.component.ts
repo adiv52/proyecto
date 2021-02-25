@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Llista } from 'src/app/llista/llista';
+import { Llista } from '../../llista/llista';
 import { LlistaService } from '../../service/llista.service'
 @Component({
   selector: 'app-llistar',
@@ -15,6 +15,5 @@ export class LlistarComponent implements OnInit {
       llits => this.llista = llits,
       );
   }
-  
   
 }
